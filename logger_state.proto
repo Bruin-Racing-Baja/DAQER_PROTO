@@ -1,6 +1,6 @@
 syntax = "proto3";
 
 message LoggerState {
-    uint32 
-
+    uint32 cycle_count = 1;
+    uint32 cycle_start_us = 2;
 }
